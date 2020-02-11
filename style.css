@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 576px) {
+
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#pause {
+    height: 90px;
+    width: auto;
+<<<<<<< HEAD
+    outline: none;
+=======
+}
+.pause:hover {
+    transform: scale(1.2,1.2);
+>>>>>>> 76adb4a62d4b34f0ce429241dbd14ba9e375825c
+}
+.centerItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    transform: scale(2,2);
+    background-color: #f1f8f0;
+    padding: .5em 1.5em;
+    color: #08172a;
+    border-radius: 1.5em 1.5em 1.5em 1.5em;
+    transition: transfrom(200);
+}
+.btn:hover {
+    transform: scale(2.1,2.1);
+    box-shadow: 0 5px 5px #f1f8f015;
+}
+.btn1 {
+<<<<<<< HEAD
+    transform: scale(1.4, 1.4);
+=======
+>>>>>>> 76adb4a62d4b34f0ce429241dbd14ba9e375825c
+    background-color: #f1f8f0;
+    padding: .5em 1.5em;
+    color: #08172a;
+    border-radius: 1.5em 1.5em 1.5em 1.5em;
+    transition: transfrom(200);
+}
+.btn1:hover {
+<<<<<<< HEAD
+    transform: scale(1.6,1.6);
+=======
+    transform: scale(1.1,1.1);
+>>>>>>> 76adb4a62d4b34f0ce429241dbd14ba9e375825c
+    box-shadow: 0 5px 5px #f1f8f015;
+}
+#gif {
+    height: 400px;
+    width: auto;
+}
+body {
+    background-color: #08172a;
+    background-image: url("images/Star_background.png");
+    background-size: 100%;
+}
+#backArrow {
+    height: 50px;
+    width: 50px;
+}
+.backArrow:hover {
+    transform: scale(1.1,1.1);
+}
+#byte {
+    height: 350px;
+    width: auto;
+}
+#quickMix{
+    height: 200px;
+    width: auto;
+}
+.quickMix{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+}
+#playNow {
+    height: 150px;
+    width: auto; 
+}
+#playlist {
+    height: 50px;
+    width: auto;
+}
+.playNow {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -345px;
+}
+.playNow:hover {
+    transform: scale(1.2,1.2);
+}
+.playlist {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: 20px;
+    margin-left: -170px;
+}
+.playlist:hover{
+    transform: scale(1.2,1.2);
+}
+.container {
+    padding-top: 8%;
+}
+.container_option {
+    padding-top: 5%;
+    padding-left: 5%;
+}
+#link {
+    height: 21px;
+    width: auto;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.spotify-link {
+    width: 90%;
+    overflow: hidden;
+    font-size: 17px;
+    padding: 2px 5;
+    border-bottom: 2px solid #f1f8f0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.spotify-link input{
+    border: none;
+    outline: none;
+    background: none;
+    color: #f1f8f0;
+    font-size: 30px;
+    width: 80%;
+    margin: 0 4px;
+}
+::placeholder {
+    color: #f1f8f1;
+    opacity: 1;
+}
+#home_button {
+    width: auto;
+    height: 150px;
+    background-image: url('images/loginButton.png');
+    background-color: #08172a;
+}
+#play {
+    height: 300px;
+    width: auto;
+}
+.play:hover{
+    transform: scale(1.2,1.2);
+}
+/*---Firefox Bug Fix --*/
+.carousel-item {
+transition: -webkit-transform 0.5s ease;
+transition: transform 0.5s ease;
+transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+-webkit-backface-visibility: visible;
+backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+position: relative;
+width: 100%;
+height: 60%;
+margin: 0!important;
+}
+.fixed-wrap {
+clip: rect(0, auto, auto, 0);
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+#fixed {
+background-image: url('img/mac.png');
+position: fixed;
+display: block;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-size: cover;
+background-position: center center;
+-webkit-transform: translateZ(0);
+        transform: translateZ(0);
+will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+  padding: 1rem;
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
